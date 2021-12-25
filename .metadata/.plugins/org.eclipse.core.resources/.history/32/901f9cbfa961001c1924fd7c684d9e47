@@ -1,0 +1,9 @@
+package newAdmin;
+
+public class NewAdminClass {
+	@Test
+	public void m1()
+	{
+		System.out.println(1Test case);
+	}
+}

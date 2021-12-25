@@ -1,0 +1,24 @@
+package restApi;
+
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.AfterMethod;
+
+public class FirstClass {
+  @Test
+  public void f() {
+	  System.out.println("Stated API Test Case");
+	   
+  }
+  @BeforeMethod
+  public void beforeMethod() {
+	  System.out.println("Stated Before Test Case");
+  }
+  
+
+  @AfterMethod
+  public void afterMethod() {
+	  System.out.println("Stated After Test Case");
+  }
+
+}
