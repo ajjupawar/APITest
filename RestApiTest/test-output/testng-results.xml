@@ -1,29 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="4890" started-at="2021-12-25T12:15:05Z" finished-at="2021-12-25T12:15:10Z">
+  <suite name="Default suite" duration-ms="8278" started-at="2021-12-26T04:24:56Z" finished-at="2021-12-26T04:25:05Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="4890" started-at="2021-12-25T12:15:05Z" finished-at="2021-12-25T12:15:10Z">
-      <class name="pkg01.TC003Get">
-        <test-method status="PASS" signature="getUserDetails()[pri:0, instance:pkg01.TC003Get@cb5822]" name="getUserDetails" duration-ms="248" started-at="2021-12-25T12:15:10Z" finished-at="2021-12-25T12:15:10Z">
+    <test name="Default test" duration-ms="8278" started-at="2021-12-26T04:24:56Z" finished-at="2021-12-26T04:25:05Z">
+      <class name="pkg02.TC008DataDriven">
+        <test-method status="PASS" signature="DataDrivenTests(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pkg02.TC008DataDriven@cc285f4]" name="DataDrivenTests" duration-ms="3741" started-at="2021-12-26T04:24:56Z" data-provider="postdata" finished-at="2021-12-26T04:25:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AA1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getUserDetails -->
-      </class> <!-- pkg01.TC003Get -->
-      <class name="pkg01.TC002Post">
-        <test-method status="PASS" signature="postUserDetails()[pri:0, instance:pkg01.TC002Post@cc285f4]" name="postUserDetails" duration-ms="4320" started-at="2021-12-25T12:15:05Z" finished-at="2021-12-25T12:15:09Z">
+        </test-method> <!-- DataDrivenTests -->
+        <test-method status="PASS" signature="DataDrivenTests(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pkg02.TC008DataDriven@cc285f4]" name="DataDrivenTests" duration-ms="1184" started-at="2021-12-26T04:25:00Z" data-provider="postdata" finished-at="2021-12-26T04:25:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AA2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5200]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- postUserDetails -->
-      </class> <!-- pkg01.TC002Post -->
-      <class name="pkg01.TC001Get">
-        <test-method status="PASS" signature="getUserDetails()[pri:0, instance:pkg01.TC001Get@18be83e4]" name="getUserDetails" duration-ms="269" started-at="2021-12-25T12:15:09Z" finished-at="2021-12-25T12:15:10Z">
+        </test-method> <!-- DataDrivenTests -->
+        <test-method status="PASS" signature="DataDrivenTests(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pkg02.TC008DataDriven@cc285f4]" name="DataDrivenTests" duration-ms="1102" started-at="2021-12-26T04:25:01Z" data-provider="postdata" finished-at="2021-12-26T04:25:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AA3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5300]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getUserDetails -->
-      </class> <!-- pkg01.TC001Get -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- DataDrivenTests -->
+        <test-method status="PASS" signature="DataDrivenTests(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pkg02.TC008DataDriven@cc285f4]" name="DataDrivenTests" duration-ms="2186" started-at="2021-12-26T04:25:02Z" data-provider="postdata" finished-at="2021-12-26T04:25:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AA4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5400]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataDrivenTests -->
+      </class> <!-- pkg02.TC008DataDriven -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

@@ -6,6 +6,11 @@
       <class name="pkg01.TC002Post"/>
       <class name="pkg01.TC001Get"/>
       <class name="pkg01.TC003Get"/>
+       <class name="pkg01.TC004GetHeaders"/>
+        <class name="pkg01.TC005ValidateJsonBody"/>
+         <class name="pkg01.TC006GetJsonNodes"/>
+          <class name="pkg01.TC007CheckBasicAuth"/>
+           <class name="pkg02.TC008DataDriven"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

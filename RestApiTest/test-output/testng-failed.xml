@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="pkg01.TC002Post">
+      <class name="pkg01.TC006GetJsonNodes">
         <methods>
-          <include name="postUserDetails"/>
+          <include name="postValidateJsonNodes"/>
         </methods>
-      </class> <!-- pkg01.TC002Post -->
+      </class> <!-- pkg01.TC006GetJsonNodes -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

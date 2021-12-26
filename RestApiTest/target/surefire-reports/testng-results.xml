@@ -1,25 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="4499" started-at="2021-12-25T12:36:43Z" finished-at="2021-12-25T12:36:47Z">
+  <suite name="Suite" duration-ms="5667" started-at="2021-12-26T02:11:18Z" finished-at="2021-12-26T02:11:23Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="4499" started-at="2021-12-25T12:36:43Z" finished-at="2021-12-25T12:36:47Z">
+    <test name="Test" duration-ms="5667" started-at="2021-12-26T02:11:18Z" finished-at="2021-12-26T02:11:23Z">
+      <class name="pkg01.TC004GetHeaders">
+        <test-method status="PASS" signature="getHeadersDetails()[pri:0, instance:pkg01.TC004GetHeaders@6fadae5d]" name="getHeadersDetails" duration-ms="249" started-at="2021-12-26T02:11:23Z" finished-at="2021-12-26T02:11:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getHeadersDetails -->
+      </class> <!-- pkg01.TC004GetHeaders -->
       <class name="pkg01.TC003Get">
-        <test-method status="PASS" signature="getUserDetails()[pri:0, instance:pkg01.TC003Get@71be98f5]" name="getUserDetails" duration-ms="224" started-at="2021-12-25T12:36:47Z" finished-at="2021-12-25T12:36:47Z">
+        <test-method status="PASS" signature="getUserDetails()[pri:0, instance:pkg01.TC003Get@71be98f5]" name="getUserDetails" duration-ms="298" started-at="2021-12-26T02:11:23Z" finished-at="2021-12-26T02:11:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getUserDetails -->
       </class> <!-- pkg01.TC003Get -->
       <class name="pkg01.TC002Post">
-        <test-method status="PASS" signature="postUserDetails()[pri:0, instance:pkg01.TC002Post@59a6e353]" name="postUserDetails" duration-ms="3984" started-at="2021-12-25T12:36:43Z" finished-at="2021-12-25T12:36:47Z">
+        <test-method status="PASS" signature="postUserDetails()[pri:0, instance:pkg01.TC002Post@59a6e353]" name="postUserDetails" duration-ms="4809" started-at="2021-12-26T02:11:18Z" finished-at="2021-12-26T02:11:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postUserDetails -->
       </class> <!-- pkg01.TC002Post -->
       <class name="pkg01.TC001Get">
-        <test-method status="PASS" signature="getUserDetails()[pri:0, instance:pkg01.TC001Get@7a0ac6e3]" name="getUserDetails" duration-ms="256" started-at="2021-12-25T12:36:47Z" finished-at="2021-12-25T12:36:47Z">
+        <test-method status="PASS" signature="getUserDetails()[pri:0, instance:pkg01.TC001Get@7a0ac6e3]" name="getUserDetails" duration-ms="265" started-at="2021-12-26T02:11:23Z" finished-at="2021-12-26T02:11:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getUserDetails -->
